@@ -372,6 +372,23 @@
     "tslib" "^2.3.1"
     "tsyringe" "^4.6.0"
 
+"@prisma/client@^3.13.0":
+  "integrity" "sha512-lnEA2tTyVbO5mS1ehmHJQKBDiKB8shaR6s3azwj3Azfi5XHIfnqmkolLCvUeFYnkDCNVzGXJpUgKwQt/UOOYVQ=="
+  "resolved" "https://registry.npmjs.org/@prisma/client/-/client-3.13.0.tgz"
+  "version" "3.13.0"
+  dependencies:
+    "@prisma/engines-version" "3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b"
+
+"@prisma/engines-version@3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b":
+  "integrity" "sha512-TGp9rvgJIKo8NgvAHSwOosbut9mTA7VC6/rpQI9gh+ySSRjdQFhbGyNUiOcQrlI9Ob2DWeO7y4HEnhdKxYiECg=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b.tgz"
+  "version" "3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b"
+
+"@prisma/engines@3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b":
+  "integrity" "sha512-Ip9CcCeUocH61eXu4BUGpvl5KleQyhcUVLpWCv+0ZmDv44bFaDpREqjGHHdRupvPN/ugB6gTlD9b9ewdj02yVA=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines/-/engines-3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b.tgz"
+  "version" "3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b"
+
 "@types/asn1js@^2.0.2":
   "integrity" "sha512-t4YHCgtD+ERvH0FyxvNlYwJ2ezhqw7t+Ygh4urQ7dJER8i185JPv6oIM3ey5YQmGN6Zp9EMbpohkjZi9t3UxwA=="
   "resolved" "https://registry.npmjs.org/@types/asn1js/-/asn1js-2.0.2.tgz"
@@ -2746,6 +2763,14 @@
   "resolved" "https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz"
   "version" "1.0.3"
 
+"prisma@*", "prisma@^3.13.0":
+  "integrity" "sha512-oO1auBnBtieGdiN+57IgsA9Vr7Sy4HkILi1KSaUG4mpKfEbnkTGnLOxAqjLed+K2nsG/GtE1tJBtB7JxN1a78Q=="
+  "resolved" "https://registry.npmjs.org/prisma/-/prisma-3.13.0.tgz"
+  "version" "3.13.0"
+  dependencies:
+    "@prisma/engines" "3.13.0-17.efdf9b1183dddfd4258cd181a72125755215ab7b"
+    "ts-pattern" "^4.0.1"
+
 "process-nextick-args@~2.0.0":
   "integrity" "sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag=="
   "resolved" "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz"
@@ -3426,6 +3451,11 @@
   "version" "1.0.1"
   dependencies:
     "punycode" "^2.1.0"
+
+"ts-pattern@^4.0.1":
+  "integrity" "sha512-eHqR/7A6fcw05vCOfnL6RwgGJbVi9G/YHTdYdjYmElhDdJ1SMn7pWs+6+YuxygaFwQS/g+cIDlu+UD8IVpur1A=="
+  "resolved" "https://registry.npmjs.org/ts-pattern/-/ts-pattern-4.0.2.tgz"
+  "version" "4.0.2"
 
 "ts-pnp@^1.1.6":
   "integrity" "sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw=="
